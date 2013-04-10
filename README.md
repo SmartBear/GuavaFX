@@ -1,7 +1,7 @@
 GuavaFX
 =======
 
-Functional library for JavaFX's [ObservableList] [2] class, inspired by [Google Guava] [1].
+Functional library for JavaFX's [ObservableList] [1] class, inspired by [Google Guava] [2].
 
 Allows you to transform, filter and concat ObservableLists, as well as some additional utility methods.
 
