@@ -558,22 +558,4 @@ public class ObservableLists
 		}
 		return ImmutableSet.of();
 	}
-
-	public static void releaseElementsWhenRemoved( ObservableList<? extends Node> list )
-	{
-		list.addListener( new ListChangeListener<Node>()
-		{
-			@Override
-			public void onChanged( javafx.collections.ListChangeListener.Change<? extends Node> c )
-			{
-				while( c.next() )
-				{
-					for( Node node : getActuallyRemoved( c ) )
-					{
-						NodeUtils.releaseRecursive( node );
-					}
-				}
-			}
-		} );
-	}
 }
