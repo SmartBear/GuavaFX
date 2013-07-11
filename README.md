@@ -19,7 +19,8 @@ filter( anObservableList, aPredicate ).transform( aGuavaFunction );
 import static org.guavafx.FluentObservableList.*
 import static javafx.beans.binding.Bindings.*
 
-ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).transform( toTweetNode );
+ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).
+                                       transform( toTweetNode );
 bindContent( tweetsListView, tweetNodes );
 ```
 
