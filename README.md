@@ -7,10 +7,18 @@ GuavaFX allows you to _transform_, _filter_ and _concat_ ObservableLists, keepin
 
 The code was initially written by @dainnilsson as a part of [LoadUI][3].
 
+# Abstract Usage Example
 ```java
 import static org.guavafx.FluentObservableList.*
 
 filter( anObservableList, aPredicate ).transform( aGuavaFunction );
+```
+
+# Concrete Usage Example
+```java
+import static org.guavafx.FluentObservableList.*
+
+filter( tweets, contains( "#javafx" ) ).transform( toTweetNode );
 ```
 
 
