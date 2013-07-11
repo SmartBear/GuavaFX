@@ -3,9 +3,9 @@ GuavaFX
 
 A functional library for JavaFX's [ObservableList] [1] class, inspired by [Google Guava] [2].
 
-Allows you to _transform_, _filter_ and _concat_ ObservableLists, as well as some additional utility methods.
+GuavaFX allows you to _transform_, _filter_ and _concat_ ObservableLists, keeping them constantly in sync.
 
-GuavaFX was initially written by @dainnilsson as a part of [LoadUI][3].
+The code was initially written by @dainnilsson as a part of [LoadUI][3].
 
 ```java
 import static org.guavafx.FluentObservableList.*
