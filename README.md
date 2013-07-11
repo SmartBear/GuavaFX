@@ -10,7 +10,7 @@ GuavaFX was initially written by @dainnilsson as a part of [LoadUI][3].
 ```java
 import static org.guavafx.FluentObservableList.*
 
-filter( anObservableList , aPredicate).transform( aGuavaFunction );
+filter( anObservableList, aPredicate ).transform( aGuavaFunction );
 ```
 
 
