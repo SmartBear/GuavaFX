@@ -8,7 +8,9 @@ Allows you to _transform_, _filter_ and _concat_ ObservableLists, as well as som
 GuavaFX was initially written by @dainnilsson as a part of [LoadUI][3].
 
 ```java
-FluentObservableList.from( anObservableList ).filter( aGuavaPredicate ).transform( aGuavaFunction );
+import static org.guavafx.FluentObservableList.*
+
+filter( anObservableList , aPredicate).transform( aGuavaFunction );
 ```
 
 
