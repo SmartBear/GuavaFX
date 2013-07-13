@@ -21,7 +21,7 @@ import static javafx.beans.binding.Bindings.*
 
 ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).
                                        transform( toTweetNode );
-bindContent( tweetsListView, tweetNodes );
+bindContent( tweetsListView.getItems(), tweetNodes );
 ```
 
 
