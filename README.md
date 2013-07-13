@@ -23,8 +23,9 @@ ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).
                                        transform( toTweetNode );
 bindContent( tweetsListView.getItems(), tweetNodes );
 ```
-
+As a comparison, [here][4] is a plain JavaFX implementation.
 
 [1]: http://docs.oracle.com/javafx/2/api/javafx/collections/ObservableList.html        "Observable List JavaDoc"
 [2]: https://code.google.com/p/guava-libraries/        "Google Guava home"
 [3]: https://github.com/SmartBear/loadui        "LoadUI project at Github"
+[4]: https://github.com/SmartBear/GuavaFX/wiki/Concrete-Example-with-plain-JavaFX "Concrete Example in plain JavaFX"
