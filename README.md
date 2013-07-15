@@ -24,8 +24,9 @@ bindContent( tweetsListView.getItems(), tweetNodes );
 ```
 As a comparison, [here][4] is a plain JavaFX implementation.
 
-### Meta
-Initially created by @dainnilsson as a part of [LoadUI][3].
+### Credits
+GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3]. Today, it is being extended
+and maintained by the LoadUI team.
 
 [1]: http://docs.oracle.com/javafx/2/api/javafx/collections/ObservableList.html        "Observable List JavaDoc"
 [2]: https://code.google.com/p/guava-libraries/        "Google Guava home"
