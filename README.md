@@ -8,7 +8,7 @@ GuavaFX allows you to _transform_, _filter_ and _concat_ an ObservableList, keep
 
 ### Concept
 ```java
-filter( anObservableList, aPredicate ).transform( aGuavaFunction );
+filter( anObservableList, aPredicate ).transform( aFunction );
 ```
 
 ### Example
