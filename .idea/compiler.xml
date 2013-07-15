@@ -25,6 +25,9 @@
         <module name="GuavaFX" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="GuavaFX" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
