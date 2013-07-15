@@ -6,14 +6,12 @@ A functional library for JavaFX's [ObservableList] [1] class, inspired by [Googl
 GuavaFX allows you to _transform_, _filter_ and _concat_ an ObservableList, keeping the returned ObservableList constantly in sync.
 
 
-### Abstract Usage Example
+### Concept
 ```java
-import static org.guavafx.FluentObservableList.*
-
 filter( anObservableList, aPredicate ).transform( aGuavaFunction );
 ```
 
-### Concrete Usage Example
+### Example
 ```java
 import static org.guavafx.FluentObservableList.*
 import static javafx.beans.binding.Bindings.*
