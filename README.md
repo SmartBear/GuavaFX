@@ -13,7 +13,7 @@ filter( anObservableList, aPredicate ).transform( aGuavaFunction );
 
 ### Example
 ```java
-import static org.guavafx.FluentObservableList.*
+import static org.guavafx.FluentObservableLists.*
 import static javafx.beans.binding.Bindings.*
 
 ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).
