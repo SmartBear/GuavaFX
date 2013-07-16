@@ -22,6 +22,24 @@ bindContent( tweetsListView.getItems(), tweetNodes );
 ```
 As a comparison, [here][4] is a plain JavaFX implementation.
 
+### Get it!
+This is what you need in your pom.xml file to start using GuavaFX:
+```XML
+<pluginRepositories>
+   <pluginRepository>
+      <id>loaduiRepository</id>
+      <url>http://www.soapui.org/repository/maven2/</url>
+   </pluginRepository>
+</pluginRepositories>
+```
+```XML
+<dependency>
+    <groupId>org.loadui</groupId>
+    <artifactId>guavaFx</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ### Credits
 GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3]. Today, it is being extended
 and maintained by the LoadUI team.
