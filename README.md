@@ -1,7 +1,7 @@
 GuavaFX
 =======
 
-A functional library for JavaFX's [ObservableList] [1] class, inspired by [Google Guava] [2].
+A functional library for [JavaFX][5]'s [ObservableList] [1] class, inspired by [Google Guava] [2].
 
 GuavaFX allows you to _transform_, _filter_ and _concat_ an ObservableList, keeping the returned ObservableList constantly in sync.
 
@@ -48,3 +48,4 @@ and maintained by the LoadUI team.
 [2]: https://code.google.com/p/guava-libraries/        "Google Guava home"
 [3]: https://github.com/SmartBear/loadui        "LoadUI project at Github"
 [4]: https://github.com/SmartBear/GuavaFX/wiki/Concrete-Example-with-plain-JavaFX "Concrete Example in plain JavaFX"
+[5]: http://www.oracle.com/technetwork/java/javafx/overview/index.html "JavaFX website"
