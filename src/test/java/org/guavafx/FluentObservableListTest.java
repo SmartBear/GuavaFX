@@ -35,6 +35,7 @@ public class FluentObservableListTest {
     public void basicTest()
     {
 		ObservableList<Integer> allElements = FXCollections.observableArrayList();
+
 		ObservableList<Integer> fluentList = filter( allElements, isEven ).transform( square );
 
 		allElements.addAll( 1, 2, 3, 4 );

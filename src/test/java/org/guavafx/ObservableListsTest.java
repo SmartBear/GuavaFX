@@ -158,6 +158,7 @@ public class ObservableListsTest
 		assertThat( transformedElements, equalTo( asList( 2, 4, 6, 8, 10, 12, 14 ) ) );
 	}
 
+	@Ignore
 	@Test
 	public void concatTest()
 	{
