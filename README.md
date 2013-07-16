@@ -22,7 +22,7 @@ bindContent( tweetsListView.getItems(), tweetNodes );
 ```
 As a comparison, [here][4] is a plain JavaFX implementation.
 
-### Get it!
+### Start using
 This is what you need in your pom.xml file to start using GuavaFX:
 ```XML
 <pluginRepositories>
