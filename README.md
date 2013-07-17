@@ -45,7 +45,7 @@ In JavaFX 8, which is expected to be released in March 2014, transformation is a
 This will essentially replace the functionality of GuavaFX.
 
 ### Credits
-GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3]. Today, it is being extended
+GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3] in 2012. Today, it is being extended
 and maintained by the LoadUI team.
 
 [1]: http://docs.oracle.com/javafx/2/api/javafx/collections/ObservableList.html        "Observable List JavaDoc"
