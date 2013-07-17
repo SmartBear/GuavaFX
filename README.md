@@ -1,7 +1,7 @@
 GuavaFX
 =======
 
-A functional library for [JavaFX][5]'s [ObservableList] [1] class, inspired by [Google Guava] [2].
+A functional library for [JavaFX 2][5]'s [ObservableList] [1] class, inspired by [Google Guava] [2].
 
 GuavaFX allows you to _transform_, _filter_ and _concat_ an ObservableList, keeping the returned ObservableList constantly in sync.
 
@@ -39,6 +39,10 @@ This is what you need in your pom.xml file to start using GuavaFX:
     <version>1.0.0</version>
 </dependency>
 ```
+
+### JavaFX 8
+In JavaFX 8, which is expected to be released in March 2014, transformation is a built-in feature of ObservableList.
+This will essentially replace the functionality of GuavaFX.
 
 ### Credits
 GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3]. Today, it is being extended
