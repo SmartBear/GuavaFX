@@ -41,8 +41,8 @@ This is what you need in your pom.xml file to start using GuavaFX:
 ```
 
 ### JavaFX 8
-In JavaFX 8, which is expected to be released in March 2014, transformation will probably be a built-in feature
-of the ObservableList interface. This will essentially replace the functionality of GuavaFX.
+In JavaFX 8, which is expected to be released in March 2014, filtering will probably be a built-in feature
+of the ObservableList interface. This might replace all or parts of the functionality of GuavaFX.
 
 ### Credits
 GuavaFX was initially created by @dainnilsson as a part of [LoadUI][3] in 2012. Today, it is being extended
