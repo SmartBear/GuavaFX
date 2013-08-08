@@ -40,6 +40,9 @@ This is what you need in your pom.xml file to start using GuavaFX:
 </dependency>
 ```
 
+### Implementation details
+GuavaFX uses weak listeners and caches for increased convenience and performance.
+
 ### JavaFX 8
 In JavaFX 8, which is expected to be released in March 2014, filtering will probably be a built-in feature
 of the ObservableList interface. This might replace all or parts of the functionality of GuavaFX.
