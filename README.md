@@ -18,7 +18,7 @@ import static javafx.beans.binding.Bindings.*
 
 ObservableList<TweetNode> tweetNodes = filter( tweets, contains( "#javafx" ) ).
                                        transform( toTweetNode );
-bindContent( tweetsListView.getItems(), tweetNodes );
+bindContent( aVBox.getChildren(), tweetNodes );
 ```
 As a comparison, [here][4] is a plain JavaFX implementation.
 
